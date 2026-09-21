@@ -16,8 +16,8 @@ from libs.PipeLine import PipeLine
 from libs.YOLO import YOLO11
 
 
-WIFI_SSID = "canMV"
-WIFI_PASSWORD = "111111111"
+WIFI_SSID = "canMV"//这里写wifi名称
+WIFI_PASSWORD = "111111111"//WiFi密码
 
 kmodel_path = "/sdcard/yolo1320.kmodel"
 labels = {0: "0"}
